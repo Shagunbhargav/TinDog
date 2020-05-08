@@ -1,0 +1,117 @@
+body{font-family: 'Montserrat', sans-serif;
+}
+
+#title{ background-color: #ff4c68;
+  color: white;
+}
+
+h1{font-family: 'Montserrat', sans-serif;
+line-height: 1.5;
+font-size: 3.5rem;}
+
+h2{font-family: 'Montserrat', sans-serif;
+font-size: 3rem;}
+
+h3{font-family: 'IBM Plex Sans', sans-serif;}
+
+p{color: #8f8f8f;
+font-family: 'IBM Plex Sans', sans-serif;}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{padding-bottom: 4.5rem;
+padding-left: 0;
+padding-right: 0;}
+
+.navbar-brand{font-family: 'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{ padding-left: 18px;
+padding-right: 18px;
+font-size: 1.2;}
+
+.btn{margin: 4.5rem 2rem 4.5rem 0;
+}
+
+.title-image{ width: 60%;
+transform: rotate(25deg);
+position: absolute;
+}
+
+#features{ padding: 7% 15%;
+position: relative;
+z-index: +1;
+background-color: white;
+}
+
+.feature-box{text-align: center;
+padding: 5%;
+}
+
+.row{margin: 0 auto 0 auto;}
+
+.icon{color: #ef8172;
+width: auto;
+padding-bottom: 15px;}
+
+.icon:hover{color: #ff4c68;}
+
+#testimonials{ background-color: #ef8172;
+color: white;
+text-align: center;}
+
+.carousel-inner{padding: 7% 15%;}
+
+.testimonial-image{ border-radius: 100%;
+width: 10%;}
+
+.pebbies{font-family: 'IBM Plex Sans', sans-serif;}
+
+#press{ background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;}
+
+.press-image{margin: 20px 20px 50px;
+width: 15%;}
+
+.card-deck{ padding-left: 4rem;
+padding-right: 3rem;}
+
+#pricing{ padding: 100px;}
+
+.pricing-head{text-align: center;}
+
+.pricing-para{text-align: center;}
+
+.pricing-card{padding: 4%;
+text-align: center;}
+
+.dog{font-family: 'Montserrat', sans-serif;
+text-align: center;}
+
+@media (max-width:1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);  }
+    #title{text-align: center;}
+}
+
+#cta{ background-color: #ff4c68;
+padding: 3% 15% 2%;
+text-align: center;}
+
+.cta-head{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#footer{text-align: center;
+padding: 7% 15%;
+width: auto;}
+
+.icon-footer{margin: .5%;}
